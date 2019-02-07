@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,31 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="gQy-6F-NSR">
-                                <rect key="frame" x="138" y="379" width="138.00000000000003" height="139.00000000000006"/>
+                                <rect key="frame" x="118" y="264" width="138.00000000000003" height="139.00000000000006"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Flixter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oxg-wy-5BX">
+                                <rect key="frame" x="149" y="447" width="76" height="29"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Italic" family="Hoefler Text" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.74780675311858458" green="0.84300113341968919" blue="0.61321415335169149" alpha="0.61779269366197187" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="gQy-6F-NSR" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="69:448" id="6jN-IW-MZb"/>
                             <constraint firstItem="gQy-6F-NSR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="9pS-qJ-5u8"/>
                             <constraint firstItem="gQy-6F-NSR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IqS-Nr-KAE"/>
+                            <constraint firstItem="Oxg-wy-5BX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="110" id="JA6-Nk-TrJ"/>
                             <constraint firstItem="gQy-6F-NSR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Jsd-AS-abd"/>
+                            <constraint firstItem="Oxg-wy-5BX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hDO-5g-eTB"/>
                             <constraint firstItem="gQy-6F-NSR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vlC-D0-R5r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.399999999999999" y="373.76311844077964"/>
         </scene>
     </scenes>
     <resources>
